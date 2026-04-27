@@ -6,14 +6,13 @@ import "./Contract.sol";
 
 contract ContractTest is Test {
     Contract public myContract;
-    address msgSender = address(3);
 
     function setUp() public {
-        vm.prank(msgSender);
         myContract = new Contract();
     }
 
-    function testConstructor() public {
-        assertEq(myContract.owner(), msgSender);
+    function testBools() public {
+        assertEq(myContract.a(), true);
+        assertEq(myContract.b(), false);
     }
 }
