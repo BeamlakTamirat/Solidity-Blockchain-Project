@@ -1,4 +1,4 @@
-````md
+
 # Learn Solidity Course Solutions  
  
 This repository provides solutions to the code exercises of the Alchemy University course 
