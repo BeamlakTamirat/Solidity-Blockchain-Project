@@ -1,3 +1,4 @@
+````md
 # Learn Solidity Course Solutions  
  
 This repository provides solutions to the code exercises of the Alchemy University course 
@@ -6,6 +7,7 @@ This repository provides solutions to the code exercises of the Alchemy Universi
 ## Table of Contents  
 
 - [Introduction](#introduction)
+- [Group Members](#group-members)
 - [Prerequisites](#prerequisites)
 - [Course Contents](#course-contents)
 - [Usage](#usage)
@@ -23,6 +25,12 @@ This course is the modern successor to traditional Solidity education,
 laying the groundwork for future learning in EIPs and community-adopted patterns. 
 It's the ultimate starting point for anyone looking to be effective in the space!
 
+## Group Members
+
+- Beamlak Tamirat — UGR/30240/15  
+- Abredagn Kebede — UGR/39700/15  
+- Henok Demissie — UGR/30663/15  
+- Gena Feyiso — UGR/30594/15  
 
 ## Prerequisites
 
@@ -72,7 +80,7 @@ Use the command line to compile and test the smart contracts.
 
 ```shell
 $ forge compile
-```
+````
 
 ### Test
 
@@ -85,15 +93,19 @@ $ forge test
 If you'd like to contribute to this repository, please follow these guidelines:
 
 1. Fork the repository to your GitHub account.
-2. Create a new branch for your contributions: 
+2. Create a new branch for your contributions:
+
    ```shell
    $ git checkout -b feature/new-feature
    ```
 3. Make your changes, whether they are bug fixes, improvements or documentation updates.
-4. Commit your changes with a descriptive commit messages.
+4. Commit your changes with descriptive commit messages.
 5. Push your branch to your forked repository on GitHub:
+
    ```shell
    $ git push origin feature/new-feature
    ```
 6. Open a Pull Request (PR) to the main repository, explaining the purpose of your changes.
 
+```
+```
